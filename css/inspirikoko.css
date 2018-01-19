@@ -1,0 +1,50 @@
+h1 {
+    font-family: 'Lobster', cursive;
+}
+
+p {
+    font-family: 'Catamaran', sans-serif;
+}
+
+.quote-text {
+    color: black;
+    font-family: 'Pacifico', cursive;
+}
+
+.container {
+	margin-top: 0%;
+}
+
+body {
+	background-image: url(https://wallpaperlayer.com/img/2015/6/simple-gray-background-8449-8772-hd-wallpapers.jpg);
+	background-size :cover;
+	background-attachment: fixed;
+	width: 1366px;
+	margin-top: 137px;
+	margin-right:0px;
+	margin-left: 0px;
+}
+
+.quotes{
+	width: 70%;
+    margin-left: 15%;
+    margin-top: 10%;
+    font-size: 30px;
+}
+
+.quote-author {
+	color: black;
+	font-family: 'Romanesco'; cursive;
+}
+
+button {
+	font-family: 'IM Fell DW Pica SC',serif;
+}
+
+button:hover {
+	transition: 1s;
+}
+
+button:active {
+	transform: translateY(4px);
+}
