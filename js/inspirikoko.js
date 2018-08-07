@@ -3,7 +3,7 @@ $(document).ready(function(){
 	newQuote();
 
 	function newQuote(){
-		var url ="http://cors-escape.herokuapp.com/https://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=json";
+		var url ="https://cors-anywhere.herokuapp.com/https://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=json";
 		$.getJSON(url, function(value){
 		//randomWord = value.quoteText + '--' + value.quoteAuthor + "&hashtags=famousquotes,inspirikoko,kolokodess";
 		
